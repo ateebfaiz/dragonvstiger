@@ -1,0 +1,27 @@
+
+spine_loading_L6.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L6_Rectangle_green
+  rotate: false
+  xy: 2, 2
+  size: 28, 56
+  orig: 34, 62
+  offset: 3, 3
+  index: -1
+L6_Rectangle_red
+  rotate: false
+  xy: 32, 3
+  size: 27, 55
+  orig: 34, 63
+  offset: 4, 4
+  index: -1
+L6_Rectangle_yellow
+  rotate: false
+  xy: 61, 3
+  size: 27, 55
+  orig: 34, 63
+  offset: 3, 4
+  index: -1

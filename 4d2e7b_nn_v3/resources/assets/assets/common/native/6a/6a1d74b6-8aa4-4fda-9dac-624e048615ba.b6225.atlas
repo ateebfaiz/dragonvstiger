@@ -1,0 +1,20 @@
+
+spine_loading_L57.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L57_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 109, 110
+  orig: 115, 115
+  offset: 3, 3
+  index: -1
+L57_Rectangle2
+  rotate: false
+  xy: 113, 70
+  size: 15, 42
+  orig: 16, 42
+  offset: 1, 0
+  index: -1

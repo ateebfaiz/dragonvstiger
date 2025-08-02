@@ -1,0 +1,20 @@
+
+spine_loading_L2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L2_baseCircle
+  rotate: false
+  xy: 2, 2
+  size: 106, 106
+  orig: 114, 114
+  offset: 4, 4
+  index: -1
+L2_blue_bar
+  rotate: false
+  xy: 110, 58
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

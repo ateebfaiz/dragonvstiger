@@ -1,0 +1,62 @@
+
+spine_home_hot.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_00
+  rotate: false
+  xy: 2, 2
+  size: 89, 101
+  orig: 154, 116
+  offset: 35, 8
+  index: -1
+fire_01
+  rotate: false
+  xy: 184, 2
+  size: 74, 101
+  orig: 154, 116
+  offset: 42, 8
+  index: -1
+fire_02
+  rotate: false
+  xy: 488, 2
+  size: 71, 101
+  orig: 154, 116
+  offset: 44, 8
+  index: -1
+fire_03
+  rotate: false
+  xy: 260, 2
+  size: 74, 101
+  orig: 154, 116
+  offset: 43, 8
+  index: -1
+fire_04
+  rotate: false
+  xy: 93, 2
+  size: 89, 101
+  orig: 154, 116
+  offset: 35, 8
+  index: -1
+fire_05
+  rotate: false
+  xy: 336, 2
+  size: 74, 101
+  orig: 154, 116
+  offset: 43, 8
+  index: -1
+fire_06
+  rotate: false
+  xy: 561, 2
+  size: 71, 101
+  orig: 154, 116
+  offset: 44, 8
+  index: -1
+fire_07
+  rotate: false
+  xy: 412, 2
+  size: 74, 101
+  orig: 154, 116
+  offset: 42, 8
+  index: -1

@@ -1,0 +1,13 @@
+
+spine_home_cockfight.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jitou1
+  rotate: false
+  xy: 2, 2
+  size: 82, 114
+  orig: 82, 114
+  offset: 0, 0
+  index: -1

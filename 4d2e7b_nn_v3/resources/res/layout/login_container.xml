@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/channel_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/channel_container">
+        <TextView android:textSize="12dp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@+id/warning" android:paddingTop="10dp" android:paddingRight="85dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đăng nhập Zalo để được bảo vệ tài khoản tốt nhất" android:lines="2" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/support" android:background="@drawable/zalosdk_support" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/ico_support" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+            <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Hỗ trợ" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

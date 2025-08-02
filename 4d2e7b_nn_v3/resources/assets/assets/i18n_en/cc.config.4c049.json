@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"i18n_en","deps":[],"uuids":["365pB8TDxJHJmgKuwEQyZi"],"paths":{"0":["json/i18nKey",0,1]},"scenes":{},"packs":{},"versions":{"import":[0,"8f087"],"native":[]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.JsonAsset"],"encrypted":true}

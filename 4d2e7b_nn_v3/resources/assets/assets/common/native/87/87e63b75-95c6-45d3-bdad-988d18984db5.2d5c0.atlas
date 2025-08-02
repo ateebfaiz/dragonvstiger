@@ -1,0 +1,41 @@
+
+spine_loading_L15.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L15_dot_blue
+  rotate: false
+  xy: 2, 2
+  size: 46, 46
+  orig: 54, 54
+  offset: 4, 4
+  index: -1
+L15_dot_green
+  rotate: false
+  xy: 50, 2
+  size: 46, 46
+  orig: 54, 54
+  offset: 4, 4
+  index: -1
+L15_dot_pink
+  rotate: false
+  xy: 50, 2
+  size: 46, 46
+  orig: 54, 54
+  offset: 4, 4
+  index: -1
+L15_dot_red
+  rotate: false
+  xy: 98, 2
+  size: 46, 46
+  orig: 54, 54
+  offset: 4, 4
+  index: -1
+L15_dot_yellow
+  rotate: false
+  xy: 98, 2
+  size: 46, 46
+  orig: 54, 54
+  offset: 4, 4
+  index: -1

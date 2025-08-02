@@ -1,0 +1,9 @@
+package androidx.credentials.provider;
+
+import android.service.credentials.BeginGetCredentialRequest;
+
+public abstract /* synthetic */ class v {
+    public static /* bridge */ /* synthetic */ Class a() {
+        return BeginGetCredentialRequest.class;
+    }
+}

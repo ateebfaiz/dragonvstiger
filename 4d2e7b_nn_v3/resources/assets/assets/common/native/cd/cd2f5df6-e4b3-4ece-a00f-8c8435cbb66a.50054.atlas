@@ -1,0 +1,27 @@
+
+spine_loading_L42.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L42_dot_blue
+  rotate: false
+  xy: 2, 2
+  size: 42, 42
+  orig: 48, 49
+  offset: 3, 3
+  index: -1
+L42_dot_green
+  rotate: false
+  xy: 46, 2
+  size: 42, 42
+  orig: 49, 49
+  offset: 3, 3
+  index: -1
+L42_dot_yellow
+  rotate: false
+  xy: 90, 2
+  size: 42, 42
+  orig: 49, 49
+  offset: 4, 3
+  index: -1

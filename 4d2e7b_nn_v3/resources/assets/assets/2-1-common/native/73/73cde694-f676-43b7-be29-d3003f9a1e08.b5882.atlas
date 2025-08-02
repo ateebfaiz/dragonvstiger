@@ -1,0 +1,34 @@
+
+spine_icon_mhcj.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CaiDai_001
+  rotate: false
+  xy: 2, 2
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+Click_BGLight
+  rotate: true
+  xy: 2, 22
+  size: 102, 101
+  orig: 107, 106
+  offset: 3, 2
+  index: -1
+Dust
+  rotate: false
+  xy: 105, 5
+  size: 41, 42
+  orig: 46, 46
+  offset: 2, 2
+  index: -1
+p3_orange
+  rotate: false
+  xy: 105, 49
+  size: 61, 75
+  orig: 61, 75
+  offset: 0, 0
+  index: -1

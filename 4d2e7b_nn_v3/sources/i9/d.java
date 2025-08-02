@@ -1,0 +1,10 @@
+package i9;
+
+public enum d {
+    SUCCESS,
+    CANCEL,
+    NETWORK_ERROR,
+    SERVER_ERROR,
+    AUTHENTICATION_AGENT_ERROR,
+    INTERNAL_ERROR
+}

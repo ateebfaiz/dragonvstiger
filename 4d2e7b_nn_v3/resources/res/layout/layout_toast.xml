@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:background="@drawable/shape_10dp_corners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <TextView android:textSize="18sp" android:textColor="#ff333333" android:gravity="center" android:id="@+id/toast_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text="一段很长的测试文字" android:layout_centerInParent="true"/>
+    </LinearLayout>
+</RelativeLayout>

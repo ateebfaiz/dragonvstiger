@@ -1,0 +1,104 @@
+
+spine_home_esports.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eff_baoyun0160_new2
+  rotate: true
+  xy: 2, 3
+  size: 52, 54
+  orig: 54, 54
+  offset: 1, 0
+  index: -1
+VS_tx_00
+  rotate: true
+  xy: 153, 66
+  size: 7, 17
+  orig: 64, 34
+  offset: 2, 16
+  index: -1
+VS_tx_01
+  rotate: true
+  xy: 172, 66
+  size: 21, 31
+  orig: 64, 34
+  offset: 1, 2
+  index: -1
+VS_tx_02
+  rotate: true
+  xy: 161, 89
+  size: 37, 32
+  orig: 64, 34
+  offset: 1, 1
+  index: -1
+VS_tx_03
+  rotate: true
+  xy: 126, 75
+  size: 51, 33
+  orig: 64, 34
+  offset: 2, 1
+  index: -1
+VS_tx_04
+  rotate: true
+  xy: 99, 6
+  size: 53, 34
+  orig: 64, 34
+  offset: 9, 0
+  index: -1
+VS_tx_05
+  rotate: true
+  xy: 135, 23
+  size: 39, 34
+  orig: 64, 34
+  offset: 24, 0
+  index: -1
+VS_tx_06
+  rotate: false
+  xy: 171, 31
+  size: 24, 33
+  orig: 64, 34
+  offset: 39, 1
+  index: -1
+VS_tx_07
+  rotate: true
+  xy: 126, 64
+  size: 9, 25
+  orig: 64, 34
+  offset: 54, 5
+  index: -1
+dian
+  rotate: false
+  xy: 58, 2
+  size: 39, 53
+  orig: 39, 53
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 65, 61
+  size: 59, 65
+  orig: 59, 65
+  offset: 0, 0
+  index: -1
+ty
+  rotate: false
+  xy: 135, 7
+  size: 28, 14
+  orig: 31, 17
+  offset: 1, 2
+  index: -1
+v
+  rotate: true
+  xy: 2, 57
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+xl_tx5
+  rotate: false
+  xy: 171, 2
+  size: 27, 27
+  orig: 29, 29
+  offset: 1, 1
+  index: -1

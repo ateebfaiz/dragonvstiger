@@ -1,0 +1,48 @@
+
+spine_home_home.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shouye1
+  rotate: true
+  xy: 2, 2
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+shouye2
+  rotate: true
+  xy: 155, 3
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+shouye3
+  rotate: true
+  xy: 96, 12
+  size: 114, 57
+  orig: 114, 57
+  offset: 0, 0
+  index: -1
+shouye3_ying
+  rotate: true
+  xy: 155, 32
+  size: 94, 62
+  orig: 94, 62
+  offset: 0, 0
+  index: -1
+shouye4
+  rotate: false
+  xy: 2, 23
+  size: 92, 103
+  orig: 92, 103
+  offset: 0, 0
+  index: -1
+shouye5
+  rotate: true
+  xy: 219, 47
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1

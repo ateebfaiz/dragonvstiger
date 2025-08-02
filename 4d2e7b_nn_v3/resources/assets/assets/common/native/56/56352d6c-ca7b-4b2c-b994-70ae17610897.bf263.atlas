@@ -1,0 +1,41 @@
+
+spine_loading_L36.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L36_Rectangle_blue
+  rotate: false
+  xy: 68, 2
+  size: 30, 31
+  orig: 34, 34
+  offset: 2, 1
+  index: -1
+L36_Rectangle_green
+  rotate: false
+  xy: 100, 2
+  size: 30, 31
+  orig: 33, 34
+  offset: 2, 1
+  index: -1
+L36_Rectangle_pink
+  rotate: false
+  xy: 2, 2
+  size: 31, 31
+  orig: 33, 34
+  offset: 1, 1
+  index: -1
+L36_Rectangle_red
+  rotate: false
+  xy: 35, 2
+  size: 31, 31
+  orig: 33, 34
+  offset: 1, 1
+  index: -1
+L36_Rectangle_yellow
+  rotate: false
+  xy: 132, 2
+  size: 30, 31
+  orig: 33, 34
+  offset: 1, 1
+  index: -1

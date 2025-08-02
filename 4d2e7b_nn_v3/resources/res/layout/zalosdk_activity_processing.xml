@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/zalosdk_process_dialog_ctl" android:background="@drawable/zalosdk_border10" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:textColor="#ff000000" android:gravity="center" android:id="@+id/zalosdk_message_ctl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:minWidth="150dp" android:text="@string/zalosdk_processing"/>
+    <ImageView android:id="@+id/zalosdk_status_ctl" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:layout_margin="5dp" android:src="@drawable/zalosdk_ic_success" android:contentDescription="@string/zalosdk_app_name"/>
+    <ProgressBar android:id="@+id/zalosdk_indicator_ctl" android:layout_width="32dp" android:layout_height="32dp" android:layout_margin="5dp" android:indeterminate="true"/>
+</LinearLayout>

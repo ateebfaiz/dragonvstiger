@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/back_ground_blue" android:layout_width="match_parent" android:layout_height="48dp">
+    <TextView android:textSize="18dp" android:textColor="@color/white" android:id="@+id/zalosdk_txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/zalosdk_back_control" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="42dp" android:layout_height="48dp" android:layout_marginLeft="10dp" android:src="@drawable/zalosdk_icon_back_arrow" android:scaleType="centerInside" android:layout_centerVertical="true"/>
+</RelativeLayout>

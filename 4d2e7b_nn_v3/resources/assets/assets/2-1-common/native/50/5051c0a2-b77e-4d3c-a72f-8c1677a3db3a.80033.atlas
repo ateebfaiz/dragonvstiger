@@ -1,0 +1,160 @@
+
+spine_icon_kyd.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aura_72
+  rotate: false
+  xy: 2, 109
+  size: 144, 144
+  orig: 205, 205
+  offset: 30, 30
+  index: -1
+flash4
+  rotate: true
+  xy: 347, 205
+  size: 48, 63
+  orig: 64, 64
+  offset: 8, 1
+  index: -1
+light
+  rotate: false
+  xy: 148, 138
+  size: 132, 115
+  orig: 146, 147
+  offset: 8, 28
+  index: -1
+text
+  rotate: true
+  xy: 282, 116
+  size: 137, 63
+  orig: 141, 68
+  offset: 2, 3
+  index: -1
+text_light/text_light_00
+  rotate: false
+  xy: 136, 106
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+text_light/text_light_01
+  rotate: false
+  xy: 135, 63
+  size: 10, 15
+  orig: 85, 41
+  offset: 10, 9
+  index: -1
+text_light/text_light_02
+  rotate: false
+  xy: 160, 12
+  size: 18, 17
+  orig: 85, 41
+  offset: 9, 8
+  index: -1
+text_light/text_light_03
+  rotate: true
+  xy: 252, 50
+  size: 24, 20
+  orig: 85, 41
+  offset: 10, 7
+  index: -1
+text_light/text_light_04
+  rotate: true
+  xy: 109, 53
+  size: 25, 24
+  orig: 85, 41
+  offset: 11, 6
+  index: -1
+text_light/text_light_05
+  rotate: true
+  xy: 109, 80
+  size: 27, 25
+  orig: 85, 41
+  offset: 15, 6
+  index: -1
+text_light/text_light_06
+  rotate: false
+  xy: 252, 109
+  size: 26, 27
+  orig: 85, 41
+  offset: 22, 6
+  index: -1
+text_light/text_light_07
+  rotate: true
+  xy: 109, 22
+  size: 29, 22
+  orig: 85, 41
+  offset: 25, 12
+  index: -1
+text_light/text_light_08
+  rotate: true
+  xy: 252, 76
+  size: 31, 20
+  orig: 85, 41
+  offset: 30, 12
+  index: -1
+text_light/text_light_09
+  rotate: false
+  xy: 133, 10
+  size: 25, 19
+  orig: 85, 41
+  offset: 40, 12
+  index: -1
+text_light/text_light_10
+  rotate: false
+  xy: 109, 2
+  size: 21, 18
+  orig: 85, 41
+  offset: 47, 12
+  index: -1
+text_light/text_light_11
+  rotate: false
+  xy: 252, 27
+  size: 20, 21
+  orig: 85, 41
+  offset: 53, 12
+  index: -1
+text_light/text_light_12
+  rotate: true
+  xy: 180, 14
+  size: 15, 19
+  orig: 85, 41
+  offset: 59, 15
+  index: -1
+text_light/text_light_13
+  rotate: false
+  xy: 133, 36
+  size: 12, 15
+  orig: 85, 41
+  offset: 62, 21
+  index: -1
+text_light/text_light_14
+  rotate: true
+  xy: 135, 53
+  size: 8, 10
+  orig: 85, 41
+  offset: 66, 24
+  index: -1
+wheel 01
+  rotate: false
+  xy: 280, 23
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+wheel 02
+  rotate: true
+  xy: 148, 31
+  size: 105, 102
+  orig: 105, 102
+  offset: 0, 0
+  index: -1
+wheel_glow_00
+  rotate: false
+  xy: 2, 5
+  size: 105, 102
+  orig: 105, 102
+  offset: 0, 0
+  index: -1

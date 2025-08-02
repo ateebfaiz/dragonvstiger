@@ -1,0 +1,41 @@
+
+spine_loading_L23.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L23_dot_blue
+  rotate: false
+  xy: 42, 43
+  size: 36, 36
+  orig: 44, 44
+  offset: 4, 4
+  index: -1
+L23_dot_green
+  rotate: false
+  xy: 2, 2
+  size: 37, 37
+  orig: 43, 43
+  offset: 3, 3
+  index: -1
+L23_dot_pink
+  rotate: false
+  xy: 2, 2
+  size: 37, 37
+  orig: 43, 43
+  offset: 3, 3
+  index: -1
+L23_dot_red
+  rotate: false
+  xy: 41, 2
+  size: 37, 37
+  orig: 43, 43
+  offset: 3, 3
+  index: -1
+L23_dot_yellow
+  rotate: false
+  xy: 2, 41
+  size: 38, 38
+  orig: 44, 44
+  offset: 3, 3
+  index: -1

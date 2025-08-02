@@ -1,0 +1,34 @@
+
+spine_home_friends.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pyj_1
+  rotate: true
+  xy: 96, 63
+  size: 61, 60
+  orig: 63, 62
+  offset: 1, 1
+  index: -1
+pyj_2
+  rotate: false
+  xy: 2, 2
+  size: 55, 81
+  orig: 57, 83
+  offset: 1, 1
+  index: -1
+pyj_3
+  rotate: true
+  xy: 59, 6
+  size: 55, 81
+  orig: 57, 83
+  offset: 1, 1
+  index: -1
+pyj_4
+  rotate: false
+  xy: 2, 85
+  size: 92, 39
+  orig: 94, 41
+  offset: 1, 1
+  index: -1

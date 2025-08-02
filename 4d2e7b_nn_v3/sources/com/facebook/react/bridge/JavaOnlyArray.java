@@ -1,0 +1,250 @@
+package com.facebook.react.bridge;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class JavaOnlyArray implements ReadableArray, WritableArray {
+    private final List mBackingList;
+
+    /* renamed from: com.facebook.react.bridge.JavaOnlyArray$1  reason: invalid class name */
+    static /* synthetic */ class AnonymousClass1 {
+        static final /* synthetic */ int[] $SwitchMap$com$facebook$react$bridge$ReadableType;
+
+        /* JADX WARNING: Can't wrap try/catch for region: R(14:0|1|2|3|4|5|6|7|8|9|10|11|12|14) */
+        /* JADX WARNING: Failed to process nested try/catch */
+        /* JADX WARNING: Missing exception handler attribute for start block: B:11:0x003e */
+        /* JADX WARNING: Missing exception handler attribute for start block: B:3:0x0012 */
+        /* JADX WARNING: Missing exception handler attribute for start block: B:5:0x001d */
+        /* JADX WARNING: Missing exception handler attribute for start block: B:7:0x0028 */
+        /* JADX WARNING: Missing exception handler attribute for start block: B:9:0x0033 */
+        static {
+            /*
+                com.facebook.react.bridge.ReadableType[] r0 = com.facebook.react.bridge.ReadableType.values()
+                int r0 = r0.length
+                int[] r0 = new int[r0]
+                $SwitchMap$com$facebook$react$bridge$ReadableType = r0
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.Null     // Catch:{ NoSuchFieldError -> 0x0012 }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x0012 }
+                r2 = 1
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x0012 }
+            L_0x0012:
+                int[] r0 = $SwitchMap$com$facebook$react$bridge$ReadableType     // Catch:{ NoSuchFieldError -> 0x001d }
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.Boolean     // Catch:{ NoSuchFieldError -> 0x001d }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x001d }
+                r2 = 2
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x001d }
+            L_0x001d:
+                int[] r0 = $SwitchMap$com$facebook$react$bridge$ReadableType     // Catch:{ NoSuchFieldError -> 0x0028 }
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.Number     // Catch:{ NoSuchFieldError -> 0x0028 }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x0028 }
+                r2 = 3
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x0028 }
+            L_0x0028:
+                int[] r0 = $SwitchMap$com$facebook$react$bridge$ReadableType     // Catch:{ NoSuchFieldError -> 0x0033 }
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.String     // Catch:{ NoSuchFieldError -> 0x0033 }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x0033 }
+                r2 = 4
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x0033 }
+            L_0x0033:
+                int[] r0 = $SwitchMap$com$facebook$react$bridge$ReadableType     // Catch:{ NoSuchFieldError -> 0x003e }
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.Map     // Catch:{ NoSuchFieldError -> 0x003e }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x003e }
+                r2 = 5
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x003e }
+            L_0x003e:
+                int[] r0 = $SwitchMap$com$facebook$react$bridge$ReadableType     // Catch:{ NoSuchFieldError -> 0x0049 }
+                com.facebook.react.bridge.ReadableType r1 = com.facebook.react.bridge.ReadableType.Array     // Catch:{ NoSuchFieldError -> 0x0049 }
+                int r1 = r1.ordinal()     // Catch:{ NoSuchFieldError -> 0x0049 }
+                r2 = 6
+                r0[r1] = r2     // Catch:{ NoSuchFieldError -> 0x0049 }
+            L_0x0049:
+                return
+            */
+            throw new UnsupportedOperationException("Method not decompiled: com.facebook.react.bridge.JavaOnlyArray.AnonymousClass1.<clinit>():void");
+        }
+    }
+
+    private JavaOnlyArray(Object... objArr) {
+        this.mBackingList = Arrays.asList(objArr);
+    }
+
+    public static JavaOnlyArray deepClone(ReadableArray readableArray) {
+        JavaOnlyArray javaOnlyArray = new JavaOnlyArray();
+        int size = readableArray.size();
+        for (int i10 = 0; i10 < size; i10++) {
+            switch (AnonymousClass1.$SwitchMap$com$facebook$react$bridge$ReadableType[readableArray.getType(i10).ordinal()]) {
+                case 1:
+                    javaOnlyArray.pushNull();
+                    break;
+                case 2:
+                    javaOnlyArray.pushBoolean(readableArray.getBoolean(i10));
+                    break;
+                case 3:
+                    javaOnlyArray.pushDouble(readableArray.getDouble(i10));
+                    break;
+                case 4:
+                    javaOnlyArray.pushString(readableArray.getString(i10));
+                    break;
+                case 5:
+                    javaOnlyArray.pushMap(JavaOnlyMap.deepClone(readableArray.getMap(i10)));
+                    break;
+                case 6:
+                    javaOnlyArray.pushArray(deepClone(readableArray.getArray(i10)));
+                    break;
+            }
+        }
+        return javaOnlyArray;
+    }
+
+    public static JavaOnlyArray from(List list) {
+        return new JavaOnlyArray(list);
+    }
+
+    public static JavaOnlyArray of(Object... objArr) {
+        return new JavaOnlyArray(objArr);
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        List list = this.mBackingList;
+        List list2 = ((JavaOnlyArray) obj).mBackingList;
+        if (list == null ? list2 == null : list.equals(list2)) {
+            return true;
+        }
+        return false;
+    }
+
+    public ReadableArray getArray(int i10) {
+        return (ReadableArray) this.mBackingList.get(i10);
+    }
+
+    public boolean getBoolean(int i10) {
+        return ((Boolean) this.mBackingList.get(i10)).booleanValue();
+    }
+
+    public double getDouble(int i10) {
+        return ((Number) this.mBackingList.get(i10)).doubleValue();
+    }
+
+    @NonNull
+    public Dynamic getDynamic(int i10) {
+        return DynamicFromArray.create(this, i10);
+    }
+
+    public int getInt(int i10) {
+        return ((Number) this.mBackingList.get(i10)).intValue();
+    }
+
+    public long getLong(int i10) {
+        return ((Number) this.mBackingList.get(i10)).longValue();
+    }
+
+    public ReadableMap getMap(int i10) {
+        return (ReadableMap) this.mBackingList.get(i10);
+    }
+
+    @Nullable
+    public String getString(int i10) {
+        return (String) this.mBackingList.get(i10);
+    }
+
+    @NonNull
+    public ReadableType getType(int i10) {
+        Object obj = this.mBackingList.get(i10);
+        if (obj == null) {
+            return ReadableType.Null;
+        }
+        if (obj instanceof Boolean) {
+            return ReadableType.Boolean;
+        }
+        if ((obj instanceof Double) || (obj instanceof Float) || (obj instanceof Integer) || (obj instanceof Long)) {
+            return ReadableType.Number;
+        }
+        if (obj instanceof String) {
+            return ReadableType.String;
+        }
+        if (obj instanceof ReadableArray) {
+            return ReadableType.Array;
+        }
+        if (obj instanceof ReadableMap) {
+            return ReadableType.Map;
+        }
+        return null;
+    }
+
+    public int hashCode() {
+        List list = this.mBackingList;
+        if (list != null) {
+            return list.hashCode();
+        }
+        return 0;
+    }
+
+    public boolean isNull(int i10) {
+        if (this.mBackingList.get(i10) == null) {
+            return true;
+        }
+        return false;
+    }
+
+    public void pushArray(@Nullable ReadableArray readableArray) {
+        this.mBackingList.add(readableArray);
+    }
+
+    public void pushBoolean(boolean z10) {
+        this.mBackingList.add(Boolean.valueOf(z10));
+    }
+
+    public void pushDouble(double d10) {
+        this.mBackingList.add(Double.valueOf(d10));
+    }
+
+    public void pushInt(int i10) {
+        this.mBackingList.add(new Double((double) i10));
+    }
+
+    public void pushLong(long j10) {
+        this.mBackingList.add(Long.valueOf(j10));
+    }
+
+    public void pushMap(@Nullable ReadableMap readableMap) {
+        this.mBackingList.add(readableMap);
+    }
+
+    public void pushNull() {
+        this.mBackingList.add((Object) null);
+    }
+
+    public void pushString(@Nullable String str) {
+        this.mBackingList.add(str);
+    }
+
+    public int size() {
+        return this.mBackingList.size();
+    }
+
+    @NonNull
+    public ArrayList<Object> toArrayList() {
+        return new ArrayList<>(this.mBackingList);
+    }
+
+    public String toString() {
+        return this.mBackingList.toString();
+    }
+
+    private JavaOnlyArray(List list) {
+        this.mBackingList = new ArrayList(list);
+    }
+
+    public JavaOnlyArray() {
+        this.mBackingList = new ArrayList();
+    }
+}

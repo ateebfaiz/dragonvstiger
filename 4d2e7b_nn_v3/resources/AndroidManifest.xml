@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="12" android:versionName="6.0.74" android:installLocation="auto" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.hxycg.fi1199.mypstq" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="34"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <queries>
+        <package android:name="com.zing.zalo"/>
+        <package android:name="com.tencent.mm"/>
+        <provider android:name="com.facebook.katana.provider.PlatformProvider" android:authorities="com.facebook.katana.provider.PlatformProvider"/>
+        <package android:name="com.whatsapp"/>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <permission android:name="com.hxycg.fi1199.mypstq.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.hxycg.fi1199.mypstq.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-permission android:name="com.zing.zalo.permission.ACCESS_THIRD_PARTY_APP_AUTHORIZATION"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <permission android:name="com.hxycg.fi1199.mypstq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.hxycg.fi1199.mypstq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="org.cocos2dx.javascript.GameApplication" android:allowBackup="false" android:supportsRtl="true" android:extractNativeLibs="true" android:fullBackupContent="@xml/appsflyer_backup_rules" android:usesCleartextTraffic="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.alibaba.pdns.ACCESS_KEY_ID" android:value="xxx"/>
+        <meta-data android:name="com.alibaba.pdns.ACCESS_KEY_SECRET" android:value="xxx"/>
+        <meta-data android:name="android.max_aspect" android:value="2.4"/>
+        <meta-data android:name="android.notch_support" android:value="true"/>
+        <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+        <meta-data android:name="android.app.lib_name" android:value="cocos"/>
+        <meta-data android:name="com.bugsnag.android.API_KEY" android:value="a9427ee3f050f4af55398db57a88f6e4"/>
+        <meta-data android:name="versionCode" android:value="9"/>
+        <meta-data android:name="bucketServers" android:value="1iiJwr6r/wLgWvS/HuaI2xCYxQmPlF0sSWF/9RBcX5bhmdz16TDqmiGOKntsxzZOAH9K1C/ksO/QwyTyWECdvjM8hDEa3lnQLVMyFu13m5pdpSDiRGXbP4HbQI3HuIbRY3gJxX5xlnetc6gPGh7Vf6Z9wTjf55VgdMlm2xKLSAwTXKXjzFPQHvtL3a09nVhp9f6I3LM/2STzhIjFg2eCYw=="/>
+        <meta-data android:name="siteCode" android:value="s1199"/>
+        <meta-data android:name="isPlayPkg" android:value="0"/>
+        <meta-data android:name="language" android:value="en"/>
+        <meta-data android:name="evntype" android:value="4"/>
+        <meta-data android:name="cid" android:value="0"/>
+        <meta-data android:name="skinType" android:value="2"/>
+        <meta-data android:name="skinTypeValue" android:value="89"/>
+        <meta-data android:name="backgroundColor" android:value="1"/>
+        <meta-data android:name="loginImage" android:value="https://vqadzz-1199-ppp.oss-accelerate.aliyuncs.com/siteadmin/upload/img/1874874896643620866.jpg"/>
+        <meta-data android:name="isSpeedPack" android:value="0"/>
+        <meta-data android:name="isrn" android:value="1"/>
+        <meta-data android:name="rnver" android:value="1.0.11"/>
+        <meta-data android:name="configData" android:value="iap6AXtaCqIBle8FB04rpKqhJ1nSA9AJH7NZAJPnJ1UUMVlG2n2mL2jOYEDPH0gx4R6CtBmrvelziRnLdSU5Og7rlLlXwMI5er6VMotOksNzL+9XW4xZ+Jdi7OBA7twp7IaUGQEEPubFiq/79oI21GtwdeoV2I3V8/GzWsYS3wyZ06XRp/w6xUghoYAYvcoWW/rJXNh3e6sJhsjjnXHaa/NzoVXBD1dXtG0qNzsN0bznRaFNOoBW4QxF8sU4GekdI41wo3hKJkM9JKGXCvlTH6/rk4R6H6q2C8Frk0suW9dg3BvcBqReIYE2vivA8PX4M3uzcFl+RXAeC9A3TDWAjZEqXyZHu14kfpIkzWg9yiByrCNpUWgtY1phoa97ghx2xT15T5vCb98IMpiP13wfDubHnHMaEyxTlQuLE1kRFF3MqNXW+uheHE2QvgWY8VO+qwIFTjWcXxQyLp79BJi9MZt17KScC0xqX21TvZn3MJ/Qzdwl26m/dTYbxKgmnlqJr1eAiXEGyPpuzKkjebA0FG//JfVViC9ta0H2sKhRlLVXllxZkWeiA7Wif1WpV68U6xu4ueC/QgFNpqPb+jqw1/ynDj5ejRxXoU1P7QZaakqASDLId+VkwksEyoaSBw4yKkMBl1fjzlcQi6THmYJMftVyXVIiULDhch5Ltbv/r+XFAqKOKymlAyp61GHfl29lEtCnU1wVTN9m9X1oayHxPEFqhoc/3EHNjPdhW7lWviFs3rxuzx0P9tn607nAvDfSQ+KLLGFXYBkPpJa7vMP2eq0RyzrNWrER6coe09UDiIVy0vTV6WNqLU9Z4xv65NUUkSWkIpM6N/7fq7RPjbBjQIH2VhMrXVWjvRHtHd0TRl5vB1OqfR713Wb/I2z7e7XdACGhvwlAVrK1HHz8BEE7/UDNnhUyUNMVzhVLlBBrXLskpcjzaxg8HM9QzhC2yUGrgrUyCd8IWT6doOdxYSAuG50Ra8tsA4m5uIQJOk9AmE/rBSg5T+MZ9lxd8PlfemsljrI+tQpGmwOlcXGXH8O12b9YoByB7BUuzheDPT/LHmL8AxGOI5DGtyZAM5nVRTKE8yIdpbtPeEOTpKpeHZImPdGQIcZqkHd99B5cj/15gHYhamt9qevThnuWFLGLlrml8yIdpbtPeEOTpKpeHZImPfflE2qlhGedfpAsO1efG3DuANF/9SKszpZW1E6VzTfhM3iLXT1WnmVEIU0XDZfvWFNZeYEFHsJpg/eBU5ujzqcRj9osXEP7J+ndaDZmNuTKJHl/Ys39n5+WYJO66n6fchVmohd2iFZDMKVhmL1cuTU7E625LfBGiVM6aokvQwf261i64RbawCROpufnlSVKnlexkqDBI/t/0ziN9BY/crSlbBCfizEfcbDC451lKRlANiCIhOqAEDET28w44DdLadrhHTR4gbTB/G7Xl+QZD/MI+QTnFodX6s0biH3onNSx24hbZ51NFzTCvpKnjWWKgXxaWaGAHXwAmxGaJ5R2RXwmXoxqtaBQnhhwxkp81WoNsqclSDn4bYWfU8z8QmfunLCh2bAWmNGUr6Z5jzNHPEsmXoxqtaBQnhhwxkp81WoNhswVpQeFU5rIQ5Lbpg18IRh+pAOVTPcCQr7v0n94Ag21mSzTU3DVJ15DEEK4aKGk3xOYQ98pGgy0mQHTFsyy3G4onK3/UCOUhlKOpxyeaaf4NAHRcTOROnNiPBxUTtGsausAWhuJcs6EzS/5WJyJPhV02tlUJ6AWKeMGPWwnib4ylm0nc5lnGD3Ii/8/qI0/E22IRqc/4Q2YvsJI03VlxEi4bbvcIxFzH+fvHXm9CzNYsbJliYQ0ENsAsXpUB+7OzhXSd/1I27AEW1QUT5NuNs4JO8Tl84u4z/+4QHDZTGLrWLrhFtrAJE6m5+eVJUqesqclSDn4bYWfU8z8QmfunN1OjkWSbfpkriwdkGA1HwPJanlZ9C26VKTDh1t2nohZFOHHCeAMvexb77qS19q1ffoxvnUPHryIe1YPyjYa+Q1fd25ToraASNooNfbh5/RExb7NfchtvGuAba7i6XBY3U0AKzjpLqGWgNlaiavZZogJOGgCzVeARerdj2OK5fQ/IXrXlbHURr/FWQE/BHyUQ6qE5ySYBVH3fYQc+5eE4Fct1HT7DQ3iYX61RT2WncezV7GSoMEj+3/TOI30Fj9ytBZmyjgD3jw9Ykan9fWAWe7rG7i54L9CAU2mo9v6OrDXU8ywq3wXWtCEC12kHBXoiblG5VG6OR7I2gAlftcc9fWDG3VvTDHNqASYZrRQSjWSWgPoztykN66YpnZY1AW+FQ5sdqUKN/Ft+r5AygzaXld9Nl8AcWSBJT7jd0afeizJ/V6pmsr+Kk3vn2iKYgKytTOAvF+b6Y6jMC5vA4AIKpaqdt9SEya8vap+8lBYaARqwFofP0vZQoGqnEwVk7OSZpBw9dhtHXLvsiXuJ+bzvLTMqNXW+uheHE2QvgWY8VO+HgKRnh/ERh/kUn4ExKUYXh864SDIL7fIySFLZNG306gBcPspzGCSQxXPU0sAOauJ"/>
+        <meta-data android:name="isAbroad" android:value="1"/>
+        <meta-data android:name="mobilesdk_app_id" android:value="1:8186469043:android:6621c6ad7712af72136ec6"/>
+        <meta-data android:name="oneSignal" android:value=""/>
+        <meta-data android:name="appsFlyerKey" android:value=""/>
+        <meta-data android:name="appsFlyerAuth" android:value=""/>
+        <meta-data android:name="appsFlyerLogType" android:value="1"/>
+        <meta-data android:name="adjustId" android:value=""/>
+        <meta-data android:name="adjustToken" android:value=""/>
+        <meta-data android:name="adjustEventCode" android:value=""/>
+        <meta-data android:name="adjustLogType" android:value="1"/>
+        <meta-data android:name="facebook_client_token" android:value=""/>
+        <meta-data android:name="pixelId" android:value="s"/>
+        <meta-data android:name="fbToken" android:value=""/>
+        <meta-data android:name="tiktokBaseCode" android:value=""/>
+        <meta-data android:name="kwaiPixelBaseCode" android:value=""/>
+        <meta-data android:name="clubId" android:value=""/>
+        <meta-data android:name="isdns" android:value="1"/>
+        <meta-data android:name="useMah" android:value="0"/>
+        <meta-data android:name="skinRtl" android:value="0"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <activity android:theme="@style/splash" android:label="@string/app_name" android:name="org.cocos2dx.javascript.AppActivity" android:exported="true" android:taskAffinity="" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|layoutDirection" android:usesCleartextTraffic="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="wgwgwgwg1199" android:host="wgwgwgwg" android:pathPrefix="/open"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="org.cocos2dx.javascript.WebGameActivity" android:process=":webH5" android:screenOrientation="sensor" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|layoutDirection"/>
+        <activity android:theme="@style/com_facebook_activity_theme" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fb${facebookAppId}"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fbconnect" android:host="cct.com.hxycg.fi1199.mypstq"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/rn" android:name="org.cocos2dx.javascript.rn.TestActivity" android:exported="false"/>
+        <activity android:name="com.livechatinc.inappchat.ChatWindowActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:theme="@style/EditBoxActivity" android:name="com.cocos.lib.CocosEditBoxActivity" android:screenOrientation="behind" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/download_path"/>
+        </provider>
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.hxycg.fi1199.mypstq.com.facebook.app.FacebookContentProvidercom.hxycg.fi1199.mypstq"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <receiver android:name="org.cocos2dx.javascript.NetworkChangedReceiver"/>
+        <meta-data android:name="engagelab.start" android:value="engagelab.start"/>
+        <receiver android:name="org.cocos2dx.javascript.sdk.engagelab.UserReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.engagelab.privates.intent.USER_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="org.cocos2dx.javascript.sdk.engagelab.UserService" android:exported="false" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.engagelab.privates.intent.USER_SERVICE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="engagelab.end" android:value="engagelab.end"/>
+        <meta-data android:name="com.zing.zalo.zalosdk.appID" android:value="@string/zalo_app_id"/>
+        <activity android:name="com.zing.zalo.zalosdk.oauth.BrowserLoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="zalo${zaloAppId}"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <provider android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <provider android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ivpusic_imagepicker_provider_paths"/>
+        </provider>
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="com.yalantis.ucrop.UCropActivity"/>
+        <service android:name="com.google.android.gms.metadata.ModuleDependencies" android:enabled="false" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data android:name="photopicker_activity:0:required" android:value=""/>
+        </service>
+        <service android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder" android:enabled="true" android:exported="false">
+            <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity android:theme="@style/Theme.Hidden" android:name="androidx.credentials.playservices.HiddenActivity" android:enabled="true" android:exported="false" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:fitsSystemWindows="true"/>
+        <activity android:theme="@style/LineSdk_AuthenticationActivity" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="lineauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:exported="false" android:multiprocess="true" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:name="com.blankj.utilcode.util.UtilsFileProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.utilcode.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.hxycg.fi1199.mypstq.messenger"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.onesignal.FCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.hxycg.fi1199.mypstq"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.onesignal.HmsMessageServiceOneSignal" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.NotificationOpenedActivityHMS" android:exported="true" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.onesignal.FCMIntentService" android:exported="false"/>
+        <service android:name="com.onesignal.FCMIntentJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.onesignal.SyncService" android:exported="false" android:stopWithTask="true"/>
+        <service android:name="com.onesignal.SyncJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.PermissionsActivity" android:exported="false"/>
+        <receiver android:name="com.onesignal.NotificationDismissReceiver" android:exported="true"/>
+        <receiver android:name="com.onesignal.BootUpReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.NotificationOpenedReceiver" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:noHistory="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder" android:exported="true" android:excludeFromRecents="true" android:noHistory="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.zing.zalo.zalosdk.oauth.OpenAPIActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"/>
+        <activity android:theme="@style/FixThemeForLoginWebview" android:name="com.zing.zalo.zalosdk.oauth.WebLoginActivity" android:exported="false" android:screenOrientation="sensor" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" android:visibleToInstantApps="true"/>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false" android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.firebaseinitprovider" android:initOrder="100" android:directBootAware="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.androidx-startup">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.com.squareup.picasso"/>
+        <provider android:name="com.flyjingfish.android_aop_core.AndroidAopContentProvider" android:exported="false" android:multiprocess="true" android:authorities="com.hxycg.fi1199.mypstq.AndroidAopContentProvider" android:initOrder="100"/>
+        <provider android:name="com.bugsnag.android.internal.BugsnagContentProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.bugsnag-startup" android:initOrder="9000"/>
+        <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
+        <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.engagelab.privates.common.component.MTCommonActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.engagelab.privates.common.component.MTCommonActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.hxycg.fi1199.mypstq"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.engagelab.privates.common.component.MTCommonProvider" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.MTCommonProvider"/>
+        <meta-data android:name="ENGAGELAB_PRIVATES_APPKEY" android:value="952e75d7decdbf1d23476db3"/>
+        <meta-data android:name="ENGAGELAB_PRIVATES_CHANNEL" android:value="developer"/>
+        <meta-data android:name="ENGAGELAB_PRIVATES_PROCESS" android:value=":remote"/>
+        <service android:name="com.engagelab.privates.push.platform.google.callback.MTGoogleCallback" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
+        <provider android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:authorities="com.hxycg.fi1199.mypstq.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.hxycg.fi1199.mypstq"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.3.0"/>
+    </application>
+</manifest>

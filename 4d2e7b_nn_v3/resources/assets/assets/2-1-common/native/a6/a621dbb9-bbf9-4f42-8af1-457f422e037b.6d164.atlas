@@ -1,0 +1,27 @@
+
+btn_sy_zc_mhcj.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Click_BGLight
+  rotate: false
+  xy: 140, 2
+  size: 102, 101
+  orig: 107, 106
+  offset: 3, 2
+  index: -1
+G_di
+  rotate: false
+  xy: 2, 15
+  size: 136, 88
+  orig: 136, 88
+  offset: 0, 0
+  index: -1
+p3_orange
+  rotate: false
+  xy: 244, 28
+  size: 61, 75
+  orig: 61, 75
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,6 @@
+{
+  "challenge": "<challenge>",
+  "timeout": 1800000,
+  "userVerification": "required",
+  "rpId": "<rpId>"
+}

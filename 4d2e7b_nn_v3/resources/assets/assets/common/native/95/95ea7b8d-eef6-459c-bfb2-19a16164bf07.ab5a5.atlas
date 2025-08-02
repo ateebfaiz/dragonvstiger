@@ -1,0 +1,27 @@
+
+spine_loading_L95.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L95_Rectangle_blue
+  rotate: false
+  xy: 2, 2
+  size: 109, 109
+  orig: 115, 114
+  offset: 3, 2
+  index: -1
+L95_Rectangle_green
+  rotate: false
+  xy: 113, 11
+  size: 100, 100
+  orig: 106, 106
+  offset: 3, 3
+  index: -1
+L95_Rectangle_yellow
+  rotate: false
+  xy: 215, 32
+  size: 78, 79
+  orig: 86, 86
+  offset: 4, 4
+  index: -1

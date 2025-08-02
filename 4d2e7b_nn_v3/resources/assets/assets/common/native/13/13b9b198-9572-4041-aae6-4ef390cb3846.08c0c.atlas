@@ -1,0 +1,69 @@
+
+spine_home_fishing.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mix_16_00004
+  rotate: false
+  xy: 80, 31
+  size: 125, 71
+  orig: 201, 201
+  offset: 45, 75
+  index: -1
+Mix_16_00007
+  rotate: true
+  xy: 143, 105
+  size: 149, 70
+  orig: 201, 201
+  offset: 35, 75
+  index: -1
+Mix_16_00009
+  rotate: true
+  xy: 72, 104
+  size: 150, 69
+  orig: 201, 201
+  offset: 35, 79
+  index: -1
+Mix_16_00011
+  rotate: true
+  xy: 2, 103
+  size: 151, 68
+  orig: 201, 201
+  offset: 34, 79
+  index: -1
+Mix_16_00013
+  rotate: false
+  xy: 207, 38
+  size: 130, 65
+  orig: 201, 201
+  offset: 40, 80
+  index: -1
+Mix_16_00015
+  rotate: true
+  xy: 264, 117
+  size: 137, 60
+  orig: 201, 201
+  offset: 37, 80
+  index: -1
+Mix_16_00017
+  rotate: true
+  xy: 215, 109
+  size: 145, 47
+  orig: 201, 201
+  offset: 33, 82
+  index: -1
+Mix_16_00019
+  rotate: false
+  xy: 207, 2
+  size: 134, 34
+  orig: 201, 201
+  offset: 35, 86
+  index: -1
+Shark
+  rotate: false
+  xy: 2, 18
+  size: 76, 83
+  orig: 76, 83
+  offset: 0, 0
+  index: -1

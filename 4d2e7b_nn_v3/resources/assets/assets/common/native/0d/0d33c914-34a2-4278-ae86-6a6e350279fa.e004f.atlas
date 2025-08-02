@@ -1,0 +1,34 @@
+
+spine_loading_L17.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L17_Rectangle_blue
+  rotate: true
+  xy: 2, 79
+  size: 34, 86
+  orig: 41, 92
+  offset: 3, 3
+  index: -1
+L17_Rectangle_green
+  rotate: true
+  xy: 2, 43
+  size: 34, 86
+  orig: 41, 92
+  offset: 4, 3
+  index: -1
+L17_Rectangle_red
+  rotate: false
+  xy: 2, 2
+  size: 41, 39
+  orig: 46, 46
+  offset: 2, 4
+  index: -1
+L17_Rectangle_yellow
+  rotate: false
+  xy: 45, 2
+  size: 41, 39
+  orig: 46, 46
+  offset: 3, 3
+  index: -1

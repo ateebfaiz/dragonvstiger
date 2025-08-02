@@ -1,0 +1,34 @@
+
+spine_loading_L72.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L72_Rectangle_blue
+  rotate: false
+  xy: 2, 53
+  size: 47, 50
+  orig: 52, 54
+  offset: 2, 2
+  index: -1
+L72_Rectangle_green
+  rotate: false
+  xy: 2, 2
+  size: 47, 49
+  orig: 52, 54
+  offset: 3, 2
+  index: -1
+L72_Rectangle_red
+  rotate: false
+  xy: 51, 54
+  size: 48, 49
+  orig: 52, 54
+  offset: 2, 3
+  index: -1
+L72_Rectangle_yellow
+  rotate: false
+  xy: 51, 4
+  size: 47, 48
+  orig: 52, 54
+  offset: 3, 3
+  index: -1

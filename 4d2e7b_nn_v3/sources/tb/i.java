@@ -1,0 +1,4 @@
+package tb;
+
+class i {
+}

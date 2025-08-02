@@ -1,0 +1,27 @@
+
+spine_loading_L11.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L11_circle_big
+  rotate: false
+  xy: 99, 18
+  size: 79, 79
+  orig: 88, 88
+  offset: 5, 5
+  index: -1
+L11_circle_line
+  rotate: false
+  xy: 2, 2
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+L11_circle_small
+  rotate: false
+  xy: 180, 33
+  size: 64, 64
+  orig: 74, 74
+  offset: 5, 5
+  index: -1

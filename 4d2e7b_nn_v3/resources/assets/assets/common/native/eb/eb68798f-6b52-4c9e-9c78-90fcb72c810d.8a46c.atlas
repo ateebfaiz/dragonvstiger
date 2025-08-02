@@ -1,0 +1,13 @@
+
+spine_loading_L14.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L14_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 35, 35
+  orig: 40, 40
+  offset: 2, 2
+  index: -1

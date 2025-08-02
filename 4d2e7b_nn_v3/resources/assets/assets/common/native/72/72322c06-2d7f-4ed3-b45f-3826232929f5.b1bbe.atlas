@@ -1,0 +1,41 @@
+
+spine_loading_L47.png
+size: 512,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L47_Rectangle_blue
+  rotate: true
+  xy: 321, 2
+  size: 26, 49
+  orig: 30, 55
+  offset: 2, 3
+  index: -1
+L47_Rectangle_green
+  rotate: true
+  xy: 198, 2
+  size: 26, 66
+  orig: 30, 72
+  offset: 2, 3
+  index: -1
+L47_Rectangle_pink
+  rotate: true
+  xy: 266, 2
+  size: 26, 53
+  orig: 30, 59
+  offset: 2, 3
+  index: -1
+L47_Rectangle_red
+  rotate: true
+  xy: 2, 4
+  size: 24, 100
+  orig: 30, 106
+  offset: 3, 3
+  index: -1
+L47_Rectangle_yellow
+  rotate: true
+  xy: 104, 2
+  size: 26, 92
+  orig: 30, 98
+  offset: 2, 3
+  index: -1

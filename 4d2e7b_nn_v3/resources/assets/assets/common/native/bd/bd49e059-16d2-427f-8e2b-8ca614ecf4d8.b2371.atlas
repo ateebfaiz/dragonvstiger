@@ -1,0 +1,55 @@
+
+spine_home_sports.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lanbai_dating_icon_tiyu1
+  rotate: false
+  xy: 377, 2
+  size: 72, 73
+  orig: 75, 75
+  offset: 2, 1
+  index: -1
+lanbai_dating_icon_tiyu2
+  rotate: false
+  xy: 2, 2
+  size: 73, 73
+  orig: 75, 75
+  offset: 1, 1
+  index: -1
+lanbai_dating_icon_tiyu3
+  rotate: false
+  xy: 77, 2
+  size: 73, 73
+  orig: 75, 75
+  offset: 1, 1
+  index: -1
+lanbai_dating_icon_tiyu4
+  rotate: false
+  xy: 152, 2
+  size: 73, 73
+  orig: 75, 76
+  offset: 1, 2
+  index: -1
+lanbai_dating_icon_tiyu5
+  rotate: false
+  xy: 227, 2
+  size: 73, 73
+  orig: 75, 75
+  offset: 1, 1
+  index: -1
+lanbai_dating_icon_tiyu6
+  rotate: false
+  xy: 302, 2
+  size: 73, 73
+  orig: 75, 76
+  offset: 1, 2
+  index: -1
+lanbai_dating_icon_tiyu7
+  rotate: false
+  xy: 451, 3
+  size: 72, 72
+  orig: 74, 74
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,20 @@
+
+spine_loading_L84.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L84_Rectangle
+  rotate: false
+  xy: 2, 69
+  size: 107, 109
+  orig: 115, 115
+  offset: 3, 3
+  index: -1
+L84_Rectangle2
+  rotate: false
+  xy: 2, 2
+  size: 66, 65
+  orig: 70, 70
+  offset: 2, 3
+  index: -1

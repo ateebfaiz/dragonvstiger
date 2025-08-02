@@ -1,0 +1,167 @@
+
+xkyd_style2_bpdh.png
+size: 680,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bk_gl
+  rotate: false
+  xy: 2, 43
+  size: 102, 150
+  orig: 102, 150
+  offset: 0, 0
+  index: -1
+bk_glow_00
+  rotate: true
+  xy: 106, 66
+  size: 137, 198
+  orig: 137, 198
+  offset: 0, 0
+  index: -1
+bk_wipes_00
+  rotate: false
+  xy: 2, 605
+  size: 408, 81
+  orig: 432, 99
+  offset: 14, 8
+  index: -1
+bk_wipes_01
+  rotate: false
+  xy: 2, 2
+  size: 407, 39
+  orig: 432, 99
+  offset: 5, 8
+  index: -1
+bk_wipes_02
+  rotate: true
+  xy: 169, 226
+  size: 377, 71
+  orig: 432, 99
+  offset: 5, 8
+  index: -1
+bk_wipes_03
+  rotate: false
+  xy: 2, 688
+  size: 417, 86
+  orig: 432, 99
+  offset: 5, 8
+  index: -1
+bk_wipes_04
+  rotate: false
+  xy: 306, 516
+  size: 363, 87
+  orig: 432, 99
+  offset: 5, 8
+  index: -1
+bk_wipes_05
+  rotate: false
+  xy: 329, 344
+  size: 341, 85
+  orig: 432, 99
+  offset: 6, 9
+  index: -1
+bk_wipes_06
+  rotate: true
+  xy: 242, 205
+  size: 309, 85
+  orig: 432, 99
+  offset: 6, 9
+  index: -1
+bk_wipes_07
+  rotate: true
+  xy: 499, 34
+  size: 308, 85
+  orig: 432, 99
+  offset: 6, 9
+  index: -1
+bk_wipes_08
+  rotate: true
+  xy: 586, 150
+  size: 192, 84
+  orig: 432, 99
+  offset: 7, 10
+  index: -1
+bk_wipes_09
+  rotate: false
+  xy: 421, 605
+  size: 241, 84
+  orig: 432, 99
+  offset: 7, 10
+  index: -1
+bk_wipes_10
+  rotate: false
+  xy: 421, 691
+  size: 254, 83
+  orig: 432, 99
+  offset: 7, 11
+  index: -1
+bk_wipes_11
+  rotate: true
+  xy: 329, 58
+  size: 284, 83
+  orig: 432, 99
+  offset: 8, 11
+  index: -1
+bk_wipes_12
+  rotate: true
+  xy: 414, 25
+  size: 317, 83
+  orig: 432, 99
+  offset: 8, 11
+  index: -1
+bk_wipes_13
+  rotate: false
+  xy: 329, 431
+  size: 347, 83
+  orig: 432, 99
+  offset: 8, 11
+  index: -1
+bk_wipes_14
+  rotate: true
+  xy: 83, 225
+  size: 378, 84
+  orig: 432, 99
+  offset: 9, 11
+  index: -1
+bk_wipes_15
+  rotate: true
+  xy: 2, 195
+  size: 408, 79
+  orig: 432, 99
+  offset: 11, 16
+  index: -1
+pd_01
+  rotate: false
+  xy: 664, 632
+  size: 14, 26
+  orig: 14, 26
+  offset: 0, 0
+  index: -1
+pd_02
+  rotate: true
+  xy: 102, 205
+  size: 18, 35
+  orig: 18, 35
+  offset: 0, 0
+  index: -1
+pd_03
+  rotate: false
+  xy: 664, 660
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+pd_04
+  rotate: false
+  xy: 83, 196
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+pd_05
+  rotate: true
+  xy: 139, 205
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1

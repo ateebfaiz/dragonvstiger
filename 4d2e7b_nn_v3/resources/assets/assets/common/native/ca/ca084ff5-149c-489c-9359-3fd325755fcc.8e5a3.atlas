@@ -1,0 +1,90 @@
+
+spine_event_goldcoin1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 125
+  size: 128, 129
+  orig: 164, 180
+  offset: 19, 25
+  index: -1
+12
+  rotate: false
+  xy: 2, 125
+  size: 128, 129
+  orig: 164, 180
+  offset: 19, 25
+  index: -1
+10
+  rotate: false
+  xy: 521, 185
+  size: 128, 69
+  orig: 164, 180
+  offset: 19, 55
+  index: -1
+11
+  rotate: false
+  xy: 261, 140
+  size: 128, 114
+  orig: 164, 180
+  offset: 19, 33
+  index: -1
+2
+  rotate: false
+  xy: 2, 8
+  size: 128, 115
+  orig: 164, 180
+  offset: 19, 32
+  index: -1
+3
+  rotate: false
+  xy: 391, 88
+  size: 128, 69
+  orig: 164, 180
+  offset: 19, 55
+  index: -1
+4
+  rotate: false
+  xy: 261, 3
+  size: 128, 37
+  orig: 164, 180
+  offset: 19, 71
+  index: -1
+5
+  rotate: false
+  xy: 391, 159
+  size: 128, 95
+  orig: 164, 180
+  offset: 19, 42
+  index: -1
+6
+  rotate: false
+  xy: 132, 129
+  size: 127, 125
+  orig: 164, 180
+  offset: 19, 27
+  index: -1
+7
+  rotate: false
+  xy: 132, 2
+  size: 127, 125
+  orig: 164, 180
+  offset: 19, 27
+  index: -1
+8
+  rotate: false
+  xy: 261, 42
+  size: 128, 96
+  orig: 164, 180
+  offset: 19, 42
+  index: -1
+9
+  rotate: false
+  xy: 391, 49
+  size: 128, 37
+  orig: 164, 180
+  offset: 19, 71
+  index: -1

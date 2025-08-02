@@ -1,0 +1,13 @@
+
+spine_loading_L80.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L80_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 107, 106
+  orig: 115, 115
+  offset: 4, 5
+  index: -1

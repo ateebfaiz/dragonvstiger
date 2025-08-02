@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/zalosdk_background_white_stroke_grey_corner_4" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="@color/black" android:layout_gravity="left" android:id="@+id/open_photo" android:layout_width="200dp" android:layout_height="wrap_content" android:text="@string/txt_select_library"/>
+    <View android:background="#ffe7e7e7" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="15dp" android:layout_marginBottom="15dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/black" android:layout_gravity="left" android:id="@+id/take_camera" android:layout_width="200dp" android:layout_height="wrap_content" android:text="@string/txt_select_camera"/>
+</LinearLayout>

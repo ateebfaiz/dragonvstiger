@@ -1,0 +1,27 @@
+
+spine_loading_3_infinity.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Infinity_line copy
+  rotate: true
+  xy: 2, 2
+  size: 17, 212
+  orig: 17, 212
+  offset: 0, 0
+  index: -1
+Infinity_line_Glow
+  rotate: true
+  xy: 2, 21
+  size: 36, 222
+  orig: 36, 222
+  offset: 0, 0
+  index: -1
+infinity_base
+  rotate: false
+  xy: 2, 59
+  size: 223, 99
+  orig: 223, 99
+  offset: 0, 0
+  index: -1

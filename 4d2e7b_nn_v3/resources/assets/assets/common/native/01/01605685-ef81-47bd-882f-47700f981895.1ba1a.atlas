@@ -1,0 +1,90 @@
+
+spine_loading_game.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+design4_1
+  rotate: false
+  xy: 319, 42
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+design4_10
+  rotate: true
+  xy: 72, 8
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+design4_11
+  rotate: true
+  xy: 142, 8
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+design4_12
+  rotate: true
+  xy: 212, 8
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+design4_2
+  rotate: false
+  xy: 359, 42
+  size: 37, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+design4_3
+  rotate: false
+  xy: 282, 41
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+design4_4
+  rotate: true
+  xy: 398, 35
+  size: 35, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+design4_5
+  rotate: true
+  xy: 293, 18
+  size: 21, 8
+  orig: 21, 10
+  offset: 0, 1
+  index: -1
+design4_6
+  rotate: false
+  xy: 282, 2
+  size: 9, 17
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+design4_7
+  rotate: true
+  xy: 319, 18
+  size: 22, 9
+  orig: 22, 10
+  offset: 0, 1
+  index: -1
+design4_8
+  rotate: false
+  xy: 282, 21
+  size: 9, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+design4_9
+  rotate: true
+  xy: 2, 8
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1

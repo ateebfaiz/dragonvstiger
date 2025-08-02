@@ -1,0 +1,62 @@
+
+spine_home_cards.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+poker_00
+  rotate: false
+  xy: 374, 70
+  size: 126, 46
+  orig: 154, 116
+  offset: 19, 4
+  index: -1
+poker_01
+  rotate: false
+  xy: 374, 32
+  size: 126, 36
+  orig: 154, 116
+  offset: 19, 13
+  index: -1
+poker_02
+  rotate: false
+  xy: 378, 8
+  size: 125, 22
+  orig: 154, 116
+  offset: 20, 28
+  index: -1
+poker_03
+  rotate: false
+  xy: 251, 3
+  size: 125, 27
+  orig: 154, 116
+  offset: 20, 33
+  index: -1
+poker_04
+  rotate: false
+  xy: 125, 2
+  size: 124, 44
+  orig: 154, 116
+  offset: 20, 35
+  index: -1
+poker_05
+  rotate: false
+  xy: 249, 60
+  size: 123, 56
+  orig: 154, 116
+  offset: 21, 35
+  index: -1
+poker_06
+  rotate: false
+  xy: 125, 48
+  size: 122, 68
+  orig: 154, 116
+  offset: 21, 35
+  index: -1
+poker_07
+  rotate: false
+  xy: 2, 43
+  size: 121, 73
+  orig: 154, 116
+  offset: 21, 35
+  index: -1

@@ -1,0 +1,202 @@
+
+spine_home_lottery.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball_3_00
+  rotate: true
+  xy: 767, 2
+  size: 25, 26
+  orig: 27, 28
+  offset: 1, 1
+  index: -1
+ball_3_01
+  rotate: true
+  xy: 795, 2
+  size: 25, 26
+  orig: 27, 28
+  offset: 1, 1
+  index: -1
+ball_3_02
+  rotate: true
+  xy: 823, 2
+  size: 25, 26
+  orig: 27, 28
+  offset: 1, 1
+  index: -1
+ball_3_03
+  rotate: false
+  xy: 872, 3
+  size: 25, 26
+  orig: 27, 28
+  offset: 1, 1
+  index: -1
+ball_5_00
+  rotate: true
+  xy: 899, 6
+  size: 26, 25
+  orig: 28, 27
+  offset: 1, 1
+  index: -1
+ball_5_01
+  rotate: true
+  xy: 908, 36
+  size: 26, 25
+  orig: 28, 27
+  offset: 1, 1
+  index: -1
+ball_5_02
+  rotate: true
+  xy: 926, 8
+  size: 26, 25
+  orig: 28, 27
+  offset: 1, 1
+  index: -1
+ball_5_03
+  rotate: true
+  xy: 935, 36
+  size: 26, 25
+  orig: 28, 27
+  offset: 1, 1
+  index: -1
+qiu2_1
+  rotate: false
+  xy: 835, 31
+  size: 24, 31
+  orig: 27, 34
+  offset: 2, 2
+  index: -1
+qiu2_2
+  rotate: false
+  xy: 767, 29
+  size: 32, 33
+  orig: 34, 35
+  offset: 1, 1
+  index: -1
+qiu2_3
+  rotate: true
+  xy: 851, 2
+  size: 27, 19
+  orig: 31, 25
+  offset: 1, 5
+  index: -1
+qiu2_xz_1
+  rotate: false
+  xy: 59, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu2_xz_2
+  rotate: false
+  xy: 116, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu2_xz_3
+  rotate: false
+  xy: 173, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu2_xz_4
+  rotate: false
+  xy: 230, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu8_1
+  rotate: false
+  xy: 861, 31
+  size: 24, 31
+  orig: 27, 34
+  offset: 1, 2
+  index: -1
+qiu8_2
+  rotate: false
+  xy: 801, 29
+  size: 32, 33
+  orig: 34, 35
+  offset: 1, 1
+  index: -1
+qiu8_3
+  rotate: true
+  xy: 887, 34
+  size: 28, 19
+  orig: 33, 25
+  offset: 4, 5
+  index: -1
+qiu8_xz_1
+  rotate: false
+  xy: 287, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu8_xz_2
+  rotate: false
+  xy: 344, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu8_xz_3
+  rotate: false
+  xy: 401, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu8_xz_4
+  rotate: false
+  xy: 458, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu9
+  rotate: false
+  xy: 2, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu9_3
+  rotate: true
+  xy: 743, 10
+  size: 52, 22
+  orig: 56, 28
+  offset: 2, 5
+  index: -1
+qiu9_xz_1
+  rotate: false
+  xy: 515, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu9_xz_2
+  rotate: false
+  xy: 572, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu9_xz_3
+  rotate: false
+  xy: 629, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1
+qiu9_xz_4
+  rotate: false
+  xy: 686, 6
+  size: 55, 56
+  orig: 57, 58
+  offset: 1, 1
+  index: -1

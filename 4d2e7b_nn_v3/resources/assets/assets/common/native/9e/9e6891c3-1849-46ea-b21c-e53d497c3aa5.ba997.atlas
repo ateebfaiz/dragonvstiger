@@ -1,0 +1,13 @@
+
+spine_loading_L93.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L93_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 93, 93
+  orig: 99, 98
+  offset: 3, 2
+  index: -1

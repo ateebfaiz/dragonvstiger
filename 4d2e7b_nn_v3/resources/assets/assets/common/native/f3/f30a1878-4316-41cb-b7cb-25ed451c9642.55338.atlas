@@ -1,0 +1,27 @@
+
+spine_loading_L8.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L6_Dot_Blue
+  rotate: false
+  xy: 2, 2
+  size: 32, 31
+  orig: 38, 39
+  offset: 3, 4
+  index: -1
+L6_Dot_Red
+  rotate: false
+  xy: 2, 2
+  size: 32, 31
+  orig: 38, 39
+  offset: 3, 4
+  index: -1
+L6_Dot_Yellow
+  rotate: false
+  xy: 2, 2
+  size: 32, 31
+  orig: 38, 39
+  offset: 3, 4
+  index: -1

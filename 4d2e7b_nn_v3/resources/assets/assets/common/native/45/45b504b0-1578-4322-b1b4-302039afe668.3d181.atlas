@@ -1,0 +1,13 @@
+
+spine_loading_L46.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L46_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 59, 59
+  orig: 67, 67
+  offset: 4, 4
+  index: -1

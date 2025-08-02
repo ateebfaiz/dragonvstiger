@@ -1,0 +1,27 @@
+
+spine_profile_vip.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ShaoGuang
+  rotate: false
+  xy: 134, 12
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 134, 48
+  size: 74, 74
+  orig: 80, 80
+  offset: 4, 4
+  index: -1
+vipbg
+  rotate: false
+  xy: 2, 2
+  size: 130, 120
+  orig: 130, 120
+  offset: 0, 0
+  index: -1

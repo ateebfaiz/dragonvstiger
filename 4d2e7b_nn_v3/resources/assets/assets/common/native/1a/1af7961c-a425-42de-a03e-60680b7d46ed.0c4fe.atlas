@@ -1,0 +1,13 @@
+
+spine_loading_L60.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L60_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 34, 33
+  orig: 38, 38
+  offset: 2, 3
+  index: -1

@@ -1,0 +1,13 @@
+
+spine_loading_L45.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L45_Rectangle
+  rotate: false
+  xy: 2, 2
+  size: 37, 37
+  orig: 39, 39
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,13 @@
+
+spine_loading_2_circle.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+waiquan
+  rotate: false
+  xy: 2, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1

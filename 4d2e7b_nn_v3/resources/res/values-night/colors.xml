@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#ff111111</color>
+    <color name="header_background">#ff111111</color>
+    <color name="primary_text">#ff111111</color>
+    <color name="selected_panel_background">#ff1e1e1e</color>
+    <color name="tab_background">#ff111111</color>
+    <color name="tab_indicator">#ffc9c9c9</color>
+    <color name="tab_text_selected">#ffffffff</color>
+    <color name="target_item_background_pressed">#ff1e1e1e</color>
+    <color name="target_item_normal">#ff111111</color>
+    <color name="target_item_pressed">#ff373737</color>
+    <color name="target_item_text">#ffffffff</color>
+    <color name="target_user_thumbnail_text">#ffffffff</color>
+</resources>

@@ -1,0 +1,62 @@
+
+spine_home_qkl.png
+size: 64,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue_Cube
+  rotate: false
+  xy: 35, 58
+  size: 27, 31
+  orig: 27, 33
+  offset: 0, 1
+  index: -1
+Green_Cube
+  rotate: false
+  xy: 34, 25
+  size: 27, 31
+  orig: 28, 32
+  offset: 1, 1
+  index: -1
+Link_1
+  rotate: false
+  xy: 41, 12
+  size: 17, 11
+  orig: 18, 12
+  offset: 1, 0
+  index: -1
+Link_2
+  rotate: false
+  xy: 2, 2
+  size: 16, 12
+  orig: 19, 13
+  offset: 2, 0
+  index: -1
+Link_3
+  rotate: false
+  xy: 2, 16
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+Link_4
+  rotate: false
+  xy: 22, 10
+  size: 17, 13
+  orig: 19, 14
+  offset: 1, 0
+  index: -1
+Red_Cube
+  rotate: true
+  xy: 2, 61
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+Yellow_Cube
+  rotate: true
+  xy: 2, 31
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1

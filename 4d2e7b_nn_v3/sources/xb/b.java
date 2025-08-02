@@ -1,0 +1,4 @@
+package xb;
+
+class b {
+}

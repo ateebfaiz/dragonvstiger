@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_form_margin_right_title_regis_acc">125dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24dp</dimen>
+    <dimen name="sdk_icon_channel_size">25dp</dimen>
+    <dimen name="sdk_login_channel_padding">4dp</dimen>
+    <dimen name="sdk_row_channel_padding">15dp</dimen>
+    <dimen name="sdk_title_channel_margin_left">33dp</dimen>
+    <dimen name="sdk_title_channel_size">14dp</dimen>
+</resources>

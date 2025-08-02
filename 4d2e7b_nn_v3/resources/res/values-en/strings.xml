@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UP786</string>
+    <string name="boc_device_not_supported">Unsupported WebView component</string>
+    <string name="boc_parameter_config_error">Invalid parameters</string>
+    <string name="boc_user_cancel">Captcha session canceled</string>
+    <string name="boc_web_callback_error">Have a little trouble in loading</string>
+    <string name="boc_web_view_load_error">Network error</string>
+    <string name="boc_web_view_ssl_error">SSL certificate error</string>
+    <string name="btn_line_login">Log in with LINE</string>
+    <string name="cant_login_fb">Failed to login Facebook.</string>
+    <string name="cant_login_gg">Failed to login Google.</string>
+    <string name="cant_login_zalo">Failed to login Zalo.</string>
+    <string name="confirm_regis">A SMS with an activation code will be sent to your phone number. Please confirm if this phone number is the correct one.</string>
+    <string name="count_activecode">You will receive an activation code in %d seconds.</string>
+    <string name="create_password">Create a password to login next time.</string>
+    <string name="create_password_caution">Password: Using password allows you to login on different device without the need to re-activate by receiving SMS message.\10Security: Please note not to share this password with anyone to ensure the security of your account.</string>
+    <string name="create_pasword_done">Update</string>
+    <string name="gt4_device_not_supported">Unsupported WebView component</string>
+    <string name="gt4_parameter_config_error">Invalid parameters</string>
+    <string name="gt4_user_cancel">Captcha session canceled</string>
+    <string name="gt4_web_callback_error">Have a little trouble in loading</string>
+    <string name="gt4_web_view_load_error">Network error</string>
+    <string name="gt4_web_view_ssl_error">SSL certificate error</string>
+    <string name="hint_nhap_ma_kick_hoat">Please enter the activation code</string>
+    <string name="info_text_activecode">The activation code has been sent to your phone number. Please wait a second.</string>
+    <string name="next_step">or &lt;a href=http://&gt;&lt;u&gt;Skip&lt;/u&gt;&lt;/a&gt;</string>
+    <string name="no_network">Network unstable, please try again later</string>
+    <string name="refresh_token_not_guest_channel">Refresh token is not Guest RToken.</string>
+    <string name="search_no_results">No results.</string>
+    <string name="select_tab_friends">Friends</string>
+    <string name="select_tab_groups">Groups</string>
+    <string name="select_target_search_hint">Search by name</string>
+    <string name="select_target_title">Share With</string>
+    <string name="term_regis" />
+    <string name="txt_close">Close</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_confirm_change">Change</string>
+    <string name="txt_confirm_upper">Confirm</string>
+    <string name="txt_regis_acc">Register</string>
+    <string name="txt_select_camera">Select photo from camera</string>
+    <string name="txt_select_library">Select photo from library</string>
+    <string name="txt_title_condition">Terms of use</string>
+    <string name="txt_title_login_zalo">Login with Zalo</string>
+    <string name="unknown_error">Something wrong. Please try again later.</string>
+    <string name="update_profile_done">Complete</string>
+    <string name="zalo_app_not_installed">Zalo is not installed yet</string>
+    <string name="zalo_app_out_of_date">Zalo is out of date</string>
+    <string name="zalosdk_processing">Processing</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="17dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/title_confirm_cmnd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bạn có muốn gắn CMND này vào \10tài khoản game hiện tại"/>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@+id/unremind_confirm" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <ImageView android:id="@+id/ico_unremind_confirm" android:tag="uncheck" android:layout_width="15dp" android:layout_height="15dp" android:src="@drawable/ic_uncheck" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+        <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Không hiện nữa" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <Button android:textSize="15dp" android:textStyle="bold" android:textColor="#ff009ddc" android:id="@+id/cancel_submit_cmnd" android:background="@drawable/zalosdk_cancel" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Bỏ qua" android:layout_weight="1"/>
+        <View android:layout_width="20dp" android:layout_height="1dp"/>
+        <Button android:textSize="15dp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/submit_cmnd" android:background="@drawable/zalosdk_zing" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Đồng ý" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
